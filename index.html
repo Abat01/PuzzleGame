@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href=""integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com"><title>Puzzle Game</title>
+      <script defer="" src="scripts/app.js"></script>
+      <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body data-new-gr-c-s-check-loaded="14.1125.0" data-gr-ext-installed="">
+
+      <section class="section-homepage">
+        <h1 class="homepage__heading heading-primary">Puzzle Oyny!</h1>
+        <div class="slider">
+          <div class="slider__slide slider__slide--active">
+            <p class="text">Asman Kodlama Mentorlygy</p>
+            <p class="text">Taslama</p>
+            <p class="text">Güýz 2023</p>
+          </div>
+          <div class="slider__slide ">
+            <p class="text">tarapyndan</p>
+            <p class="text">Abat Annamammedova</p>
+          </div>
+          <div class="slider__slide">
+            <p class="text--enjoy">Lezzet al!</p>
+          </div>
+        </div>
+        <button class="btn btn--start">Bashla</button>
+      </section>
+  
+      <section class="section-image-selection" style="display: none;">
+        <h4 class="image-selection__heading heading-secondary">Surat seçin</h4>
+        <div class="image-box">
+          <img class="image-box__img" src="images.jpeg" alt="Planetarium girl">
+          <img class="image-box__img" src="hg.jpeg" alt="Blumen">
+          <img class="image-box__img" src="pics..jpeg" alt="Shoting nature">
+        </div>
+        <button class="btn btn--continue hidden">Dowam et</button>
+      </section>
+  
+  
+      <section class="section-puzzle" style="display: none;">
+        <div class="puzzle-card"></div>
+        <div class="puzzle-shuffle-box">
+          <h4 class="heading-secondary">Shuffle mukdaryny saýlan</h4>
+          <div class="dropdown">
+            <button class="dropdown__btn">Shuffle saýla
+              <span>▾</span>
+            </button>
+            <ul class="dropdown__options hidden">
+              <li class="dropdown__option default" aria-disabled="true">saýla</li>
+              <li class="dropdown__option">
+                <input name="moves" id="3" type="radio" class="dropdown__option-input">
+                <label class="dropdown__option-label" for="3">3 göçüm</label>
+              </li>
+              <li class="dropdown__option">
+                <input name="moves" id="30" type="radio" class="dropdown__option-input">
+                <label class="dropdown__option-label" for="30">30 göçüm</label>
+              </li>
+            </ul>
+          </div>
+          <button class="btn btn--shuffle hidden">Bashla</button>
+        </div>
+      </section> 
+  
+  </body>
+</html>
